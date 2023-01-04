@@ -1,0 +1,189 @@
+		
+		#title{
+			color:white;font-size:50px;
+			text-align:center;background-color:#e91e63;
+		}
+		#sub{color:black;text-align:center;background-color:#e91e63;}
+		.menu{
+			background-color:rgba(0, 0, 0, 0.8);
+		    text-align:center;
+			width:100%;}
+		.menu ul{display:inline-flex; list-style:none;font-size:30px;}
+		.menu ul a{color:white; text-decoration:none;}
+		.menu ul li{width:300px; margin:0px;}
+		.menu ul li:hover{background-color:#e91e63; box-radius:30px;}
+		.ddl{display:none;}	
+		ul #g1:hover{border:1px solid black;} 
+		ul #g2:hover{border:1px solid black;} 
+		ul #g3:hover{border:1px solid black;} 
+		ul #g4:hover{border:1px solid black;} 
+        .menu ul li:hover .ddl{display:block;
+		                position:absolute;
+						background-color:rgba(0,0,0,0.5);
+						border:2px solid black;}	
+        a{height:100px;column-rule:3px dotted;}	
+        .ddl ul{display:inline-block;}		
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        section {
+            width: 100%;
+            height: 100vh;
+            background:url('coverimg2.jpg');
+            background-size: cover;
+        }
+        section .leftBox {
+            width: 50%;
+            height: 100%;
+            float: left;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+        section .leftBox .content {
+            color: #fff;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            transition: .5s;
+        }
+        section .leftBox .content:hover {
+            background: #e91e63;
+        }
+        section .leftBox .content h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+        section .leftBox .content p {
+            margin: 10px 0 0;
+            padding: 0;
+        }
+        section .events {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            float: right;
+            box-sizing: border-box;
+        }
+        section .events ul {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+        section .events ul li {
+            list-style: none;
+            background: #fff;
+            box-sizing: border-box;
+            height: 200px;
+            margin: 15px 0;
+        }
+        section .events ul li .time {
+            position: relative;
+            padding: 20px;
+            background: #262626;
+            box-sizing: border-box;
+            width: 30%;
+            height: 100%;
+            float: left;
+            text-align: center;
+            transition: .5s;
+        }
+        section .events ul li:hover .time {
+            background: #e91e63;
+        }
+        section .events ul li .time h2 {
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 60px;
+            line-height: 30px;
+        }
+        section .events ul li .time h2 span {
+            font-size: 30px;
+        }
+        section .events ul li .details {
+            padding: 20px;
+            background: #fff;
+            box-sizing: border-box;
+            width: 70%;
+            height: 100%;
+            float: left;
+        }
+        section .events ul li .details h3 {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            font-size: 22px;
+        }
+        section .events ul li .details p {
+            position: relative;
+            margin: 10px 0 0;
+            padding: 0;
+            font-size: 16px;
+        }
+        section .events ul li .details a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 10px;
+            margin-top: 8px;
+            font-size: 18px;
+            transition: .5s;
+        }
+        section .events ul li .details a:hover {
+            background: #e91e63;
+            color: #fff;
+            border-color: #e91e63;
+        }
+		#socialmedia{margin:500px 400px 10px 10px;}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;height:30px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+		#foot{
+			color:black;text-align:center;
+		}
